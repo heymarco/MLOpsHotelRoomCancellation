@@ -4,3 +4,7 @@
 *.parquet
 .idea
 *__pycache__*
+/artifacts
+/logs
+/mlruns
+mlops_p1.egg-info/

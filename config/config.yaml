@@ -4,6 +4,7 @@ data_ingestion:
   train_ratio: 0.8
 
 data_processing:
+  target_column: "booking_status"
   dropped_columns:
     - "Booking_ID"
     - "arrival_year"

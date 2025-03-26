@@ -84,3 +84,242 @@
 2025-03-26 12:30:29,092 - INFO - Saving data under artifacts\processed\processed_train.parquet
 2025-03-26 12:30:29,115 - INFO - Saving data under artifacts\processed\processed_test.parquet
 2025-03-26 12:30:29,131 - INFO - Data preprocessing completed successfully
+2025-03-26 15:54:12,550 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 15:54:12,550 - INFO - Starting model training pipeline
+2025-03-26 15:54:12,550 - INFO - Loading data from artifacts\processed\processed_train.parquet
+2025-03-26 15:54:12,550 - INFO - Started loading file at artifacts\processed\processed_train.parquet
+2025-03-26 15:54:12,899 - INFO - Successfully loaded data
+2025-03-26 15:54:12,899 - INFO - Loading data from artifacts\processed\processed_test.parquet
+2025-03-26 15:54:12,899 - INFO - Started loading file at artifacts\processed\processed_test.parquet
+2025-03-26 15:54:12,914 - INFO - Successfully loaded data
+2025-03-26 15:54:12,914 - INFO - Date splitted successfully for model training
+2025-03-26 15:54:12,914 - INFO - Initializing model
+2025-03-26 15:54:12,914 - INFO - Starting hyperparameter tuning
+2025-03-26 15:56:29,327 - INFO - Best parameters are {'bootstrap': True, 'max_depth': None, 'n_estimators': 58}
+2025-03-26 15:56:29,327 - INFO - Evaluating model
+2025-03-26 15:56:29,385 - INFO - Metrics are {'Accuracy': 0.8995175740868366, 'Recall': 0.9478780387309436, 'Precision': 0.9062438447902305, 'F1': 0.9265934951163025}
+2025-03-26 15:56:29,385 - INFO - Successfully finished model training pipeline
+2025-03-26 15:58:49,022 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 15:58:49,022 - INFO - Starting model training pipeline
+2025-03-26 15:58:49,022 - INFO - Loading data from artifacts\processed\processed_train.parquet
+2025-03-26 15:58:49,022 - INFO - Started loading file at artifacts\processed\processed_train.parquet
+2025-03-26 15:58:49,090 - INFO - Successfully loaded data
+2025-03-26 15:58:49,090 - INFO - Loading data from artifacts\processed\processed_test.parquet
+2025-03-26 15:58:49,090 - INFO - Started loading file at artifacts\processed\processed_test.parquet
+2025-03-26 15:58:49,107 - INFO - Successfully loaded data
+2025-03-26 15:58:49,108 - INFO - Data splitted successfully for model training
+2025-03-26 15:58:49,108 - INFO - Initializing model
+2025-03-26 15:58:49,108 - INFO - Starting hyperparameter tuning
+2025-03-26 16:01:38,214 - INFO - Best parameters are {'bootstrap': False, 'max_depth': 19, 'n_estimators': 28}
+2025-03-26 16:01:38,214 - INFO - Evaluating model
+2025-03-26 16:01:38,248 - INFO - Metrics are {'Accuracy': 0.9037904893177119, 'Recall': 0.9532344458178822, 'Precision': 0.9076108277755983, 'F1': 0.929863344051447}
+2025-03-26 16:01:38,248 - ERROR - Error in model training pipeline ModelTraining._save_model() missing 1 required positional argument: 'model'
+2025-03-26 16:02:26,337 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:02:26,338 - INFO - Starting model training pipeline
+2025-03-26 16:02:26,338 - INFO - Loading data from artifacts\processed\processed_train.parquet
+2025-03-26 16:02:26,338 - INFO - Started loading file at artifacts\processed\processed_train.parquet
+2025-03-26 16:02:27,009 - INFO - Successfully loaded data
+2025-03-26 16:02:27,009 - INFO - Loading data from artifacts\processed\processed_test.parquet
+2025-03-26 16:02:27,009 - INFO - Started loading file at artifacts\processed\processed_test.parquet
+2025-03-26 16:02:27,009 - INFO - Successfully loaded data
+2025-03-26 16:02:27,020 - INFO - Data splitted successfully for model training
+2025-03-26 16:02:27,020 - INFO - Initializing model
+2025-03-26 16:02:27,020 - INFO - Starting hyperparameter tuning
+2025-03-26 16:04:11,791 - INFO - Best parameters are {'bootstrap': False, 'max_depth': 16, 'n_estimators': 81}
+2025-03-26 16:04:11,791 - INFO - Evaluating model
+2025-03-26 16:04:11,853 - INFO - Metrics are {'Accuracy': 0.8997932460372157, 'Recall': 0.9515863205603626, 'Precision': 0.9037370377616905, 'F1': 0.9270446562970397}
+2025-03-26 16:04:11,853 - INFO - Saving the model
+2025-03-26 16:04:11,893 - INFO - Model saved to artifacts\model.pkl
+2025-03-26 16:04:11,893 - INFO - Successfully finished model training pipeline
+2025-03-26 16:16:58,975 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:16:59,770 - INFO - Starting MLFlow experiment
+2025-03-26 16:16:59,770 - INFO - Starting model training pipeline
+2025-03-26 16:16:59,770 - INFO - Loading data from artifacts\processed\processed_train.parquet
+2025-03-26 16:16:59,770 - INFO - Started loading file at artifacts\processed\processed_train.parquet
+2025-03-26 16:16:59,800 - INFO - Successfully loaded data
+2025-03-26 16:16:59,800 - INFO - Loading data from artifacts\processed\processed_test.parquet
+2025-03-26 16:16:59,801 - INFO - Started loading file at artifacts\processed\processed_test.parquet
+2025-03-26 16:16:59,804 - INFO - Successfully loaded data
+2025-03-26 16:16:59,807 - INFO - Data splitted successfully for model training
+2025-03-26 16:16:59,807 - INFO - Initializing model
+2025-03-26 16:16:59,807 - INFO - Starting hyperparameter tuning
+2025-03-26 16:18:45,908 - INFO - Best parameters are {'bootstrap': False, 'max_depth': 16, 'n_estimators': 81}
+2025-03-26 16:18:45,908 - INFO - Evaluating model
+2025-03-26 16:18:45,975 - INFO - Metrics are {'Accuracy': 0.8997932460372157, 'Recall': 0.9515863205603626, 'Precision': 0.9037370377616905, 'F1': 0.9270446562970397}
+2025-03-26 16:18:45,975 - INFO - Saving the model
+2025-03-26 16:18:46,007 - INFO - Model saved to artifacts\model.pkl
+2025-03-26 16:18:46,007 - INFO - Logging training and testing data in MLFlow
+2025-03-26 16:18:46,044 - INFO - Logging model in MLFlow
+2025-03-26 16:18:46,044 - INFO - Logging model metrics in MLFlow
+2025-03-26 16:18:46,127 - INFO - Logging model params in MLFlow
+2025-03-26 16:18:46,273 - INFO - Successfully finished model training pipeline
+2025-03-26 16:20:48,150 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:20:48,792 - INFO - Starting MLFlow experiment
+2025-03-26 16:20:48,792 - INFO - Starting model training pipeline
+2025-03-26 16:20:48,793 - INFO - Loading data from artifacts\processed\processed_train.parquet
+2025-03-26 16:20:48,793 - INFO - Started loading file at artifacts\processed\processed_train.parquet
+2025-03-26 16:20:48,821 - INFO - Successfully loaded data
+2025-03-26 16:20:48,821 - INFO - Loading data from artifacts\processed\processed_test.parquet
+2025-03-26 16:20:48,821 - INFO - Started loading file at artifacts\processed\processed_test.parquet
+2025-03-26 16:20:48,825 - INFO - Successfully loaded data
+2025-03-26 16:20:48,828 - INFO - Data splitted successfully for model training
+2025-03-26 16:20:48,828 - INFO - Initializing model
+2025-03-26 16:20:48,828 - INFO - Starting hyperparameter tuning
+2025-03-26 16:22:31,489 - INFO - Best parameters are {'bootstrap': False, 'max_depth': 16, 'n_estimators': 81}
+2025-03-26 16:22:31,489 - INFO - Evaluating model
+2025-03-26 16:22:31,556 - INFO - Metrics are {'Accuracy': 0.8997932460372157, 'Recall': 0.9515863205603626, 'Precision': 0.9037370377616905, 'F1': 0.9270446562970397}
+2025-03-26 16:22:31,557 - INFO - Saving the model
+2025-03-26 16:22:31,586 - INFO - Model saved to artifacts\model.pkl
+2025-03-26 16:22:31,586 - INFO - Logging training and testing data in MLFlow
+2025-03-26 16:22:31,619 - INFO - Logging model in MLFlow
+2025-03-26 16:22:31,619 - INFO - Logging model metrics in MLFlow
+2025-03-26 16:22:31,675 - INFO - Logging model params in MLFlow
+2025-03-26 16:22:31,811 - INFO - Successfully finished model training pipeline
+2025-03-26 16:30:07,275 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:30:07,276 - INFO - Data ingestion started with marco93_1 and file is hotel_reservations.csv
+2025-03-26 16:30:07,276 - INFO - Starting data ingestion process
+2025-03-26 16:30:08,686 - INFO - Successfully downloaded CSV file to artifacts\raw\raw.csv
+2025-03-26 16:30:08,686 - INFO - Starting the splitting process
+2025-03-26 16:30:08,824 - INFO - Train data saved to artifacts\raw\train.parquet
+2025-03-26 16:30:08,824 - INFO - Test data saved to artifacts\raw\test.parquet
+2025-03-26 16:30:08,827 - INFO - Data ingestion completed successfully
+2025-03-26 16:30:08,828 - INFO - Data ingestion completed
+2025-03-26 16:30:08,830 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:30:08,830 - INFO - Loading data from artifacts\raw\train.parquet and artifacts\raw\test.parquet
+2025-03-26 16:30:08,830 - INFO - Started loading file at artifacts\raw\train.parquet
+2025-03-26 16:30:08,871 - INFO - Successfully loaded data
+2025-03-26 16:30:08,871 - INFO - Started loading file at artifacts\raw\test.parquet
+2025-03-26 16:30:08,897 - INFO - Successfully loaded data
+2025-03-26 16:30:08,897 - INFO - Starting data preprocessing
+2025-03-26 16:30:08,897 - INFO - Dropping columns
+2025-03-26 16:30:08,901 - INFO - Dropping columns
+2025-03-26 16:30:08,903 - INFO - Encode labels
+2025-03-26 16:30:08,923 - INFO - Label mappings are:
+2025-03-26 16:30:08,923 - INFO - type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-03-26 16:30:08,923 - INFO - required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 16:30:08,923 - INFO - room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-03-26 16:30:08,923 - INFO - market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-03-26 16:30:08,923 - INFO - repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 16:30:08,923 - INFO - booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-03-26 16:30:08,923 - INFO - Reducing skew in data:
+2025-03-26 16:30:08,928 - INFO - Reducing skew in data:
+2025-03-26 16:30:08,931 - INFO - Saving data under artifacts\processed\processed_train.parquet
+2025-03-26 16:30:08,946 - INFO - Saving data under artifacts\processed\processed_test.parquet
+2025-03-26 16:30:08,955 - INFO - Data preprocessing completed successfully
+2025-03-26 16:30:08,957 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:30:09,657 - INFO - Starting MLFlow experiment
+2025-03-26 16:30:09,657 - INFO - Starting model training pipeline
+2025-03-26 16:30:09,658 - INFO - Loading data from artifacts\processed\processed_train.parquet
+2025-03-26 16:30:09,658 - INFO - Started loading file at artifacts\processed\processed_train.parquet
+2025-03-26 16:30:09,670 - INFO - Successfully loaded data
+2025-03-26 16:30:09,671 - INFO - Loading data from artifacts\processed\processed_test.parquet
+2025-03-26 16:30:09,671 - INFO - Started loading file at artifacts\processed\processed_test.parquet
+2025-03-26 16:30:09,682 - INFO - Successfully loaded data
+2025-03-26 16:30:09,685 - INFO - Data splitted successfully for model training
+2025-03-26 16:30:09,687 - ERROR - Error in model training pipeline 'str' object is not callable
+2025-03-26 16:30:37,573 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:30:37,573 - INFO - Data ingestion started with marco93_1 and file is hotel_reservations.csv
+2025-03-26 16:30:37,573 - INFO - Starting data ingestion process
+2025-03-26 16:30:38,787 - INFO - Successfully downloaded CSV file to artifacts\raw\raw.csv
+2025-03-26 16:30:38,787 - INFO - Starting the splitting process
+2025-03-26 16:30:38,903 - INFO - Train data saved to artifacts\raw\train.parquet
+2025-03-26 16:30:38,903 - INFO - Test data saved to artifacts\raw\test.parquet
+2025-03-26 16:30:38,903 - INFO - Data ingestion completed successfully
+2025-03-26 16:30:38,903 - INFO - Data ingestion completed
+2025-03-26 16:30:38,903 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:30:38,903 - INFO - Loading data from artifacts\raw\train.parquet and artifacts\raw\test.parquet
+2025-03-26 16:30:38,903 - INFO - Started loading file at artifacts\raw\train.parquet
+2025-03-26 16:30:38,957 - INFO - Successfully loaded data
+2025-03-26 16:30:38,957 - INFO - Started loading file at artifacts\raw\test.parquet
+2025-03-26 16:30:38,981 - INFO - Successfully loaded data
+2025-03-26 16:30:38,982 - INFO - Starting data preprocessing
+2025-03-26 16:30:38,982 - INFO - Dropping columns
+2025-03-26 16:30:38,985 - INFO - Dropping columns
+2025-03-26 16:30:38,985 - INFO - Encode labels
+2025-03-26 16:30:39,003 - INFO - Label mappings are:
+2025-03-26 16:30:39,003 - INFO - type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-03-26 16:30:39,003 - INFO - required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 16:30:39,003 - INFO - room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-03-26 16:30:39,003 - INFO - market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-03-26 16:30:39,003 - INFO - repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 16:30:39,003 - INFO - booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-03-26 16:30:39,003 - INFO - Reducing skew in data:
+2025-03-26 16:30:39,003 - INFO - Reducing skew in data:
+2025-03-26 16:30:39,003 - INFO - Saving data under artifacts\processed\processed_train.parquet
+2025-03-26 16:30:39,019 - INFO - Saving data under artifacts\processed\processed_test.parquet
+2025-03-26 16:30:39,026 - INFO - Data preprocessing completed successfully
+2025-03-26 16:30:39,026 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:30:39,642 - INFO - Starting MLFlow experiment
+2025-03-26 16:30:39,642 - INFO - Starting model training pipeline
+2025-03-26 16:30:39,642 - INFO - Loading data from artifacts\processed\processed_train.parquet
+2025-03-26 16:30:39,642 - INFO - Started loading file at artifacts\processed\processed_train.parquet
+2025-03-26 16:30:39,642 - INFO - Successfully loaded data
+2025-03-26 16:30:39,642 - INFO - Loading data from artifacts\processed\processed_test.parquet
+2025-03-26 16:30:39,642 - INFO - Started loading file at artifacts\processed\processed_test.parquet
+2025-03-26 16:30:39,666 - INFO - Successfully loaded data
+2025-03-26 16:30:39,668 - INFO - Data splitted successfully for model training
+2025-03-26 16:30:39,668 - INFO - Initializing model RandomForestClassifier
+2025-03-26 16:30:39,668 - INFO - Starting hyperparameter tuning
+2025-03-26 16:32:21,084 - INFO - Best parameters are {'bootstrap': False, 'max_depth': 16, 'n_estimators': 81}
+2025-03-26 16:32:21,084 - INFO - Evaluating model
+2025-03-26 16:32:21,155 - INFO - Metrics are {'Accuracy': 0.8997932460372157, 'Recall': 0.9515863205603626, 'Precision': 0.9037370377616905, 'F1': 0.9270446562970397}
+2025-03-26 16:32:21,156 - INFO - Saving the model
+2025-03-26 16:32:21,192 - INFO - Model saved to artifacts\model.pkl
+2025-03-26 16:32:21,192 - INFO - Logging training and testing data in MLFlow
+2025-03-26 16:32:21,228 - INFO - Logging model in MLFlow
+2025-03-26 16:32:21,228 - INFO - Logging model metrics in MLFlow
+2025-03-26 16:32:21,293 - INFO - Logging model params in MLFlow
+2025-03-26 16:32:21,444 - INFO - Successfully finished model training pipeline
+2025-03-26 16:33:33,181 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:33:33,182 - INFO - Data ingestion started with marco93_1 and file is hotel_reservations.csv
+2025-03-26 16:33:33,182 - INFO - Starting data ingestion process
+2025-03-26 16:33:34,418 - INFO - Successfully downloaded CSV file to artifacts\raw\raw.csv
+2025-03-26 16:33:34,418 - INFO - Starting the splitting process
+2025-03-26 16:33:34,542 - INFO - Train data saved to artifacts\raw\train.parquet
+2025-03-26 16:33:34,542 - INFO - Test data saved to artifacts\raw\test.parquet
+2025-03-26 16:33:34,544 - INFO - Data ingestion completed successfully
+2025-03-26 16:33:34,544 - INFO - Data ingestion completed
+2025-03-26 16:33:34,546 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:33:34,546 - INFO - Loading data from artifacts\raw\train.parquet and artifacts\raw\test.parquet
+2025-03-26 16:33:34,546 - INFO - Started loading file at artifacts\raw\train.parquet
+2025-03-26 16:33:34,579 - INFO - Successfully loaded data
+2025-03-26 16:33:34,580 - INFO - Started loading file at artifacts\raw\test.parquet
+2025-03-26 16:33:34,602 - INFO - Successfully loaded data
+2025-03-26 16:33:34,602 - INFO - Starting data preprocessing
+2025-03-26 16:33:34,602 - INFO - Dropping columns
+2025-03-26 16:33:34,604 - INFO - Dropping columns
+2025-03-26 16:33:34,605 - INFO - Encode labels
+2025-03-26 16:33:34,623 - INFO - Label mappings are:
+2025-03-26 16:33:34,623 - INFO - type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-03-26 16:33:34,623 - INFO - required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 16:33:34,623 - INFO - room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-03-26 16:33:34,623 - INFO - market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-03-26 16:33:34,623 - INFO - repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 16:33:34,623 - INFO - booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-03-26 16:33:34,623 - INFO - Reducing skew in data:
+2025-03-26 16:33:34,626 - INFO - Reducing skew in data:
+2025-03-26 16:33:34,628 - INFO - Saving data under artifacts\processed\processed_train.parquet
+2025-03-26 16:33:34,642 - INFO - Saving data under artifacts\processed\processed_test.parquet
+2025-03-26 16:33:34,649 - INFO - Data preprocessing completed successfully
+2025-03-26 16:33:34,651 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 16:33:35,275 - INFO - Starting MLFlow experiment
+2025-03-26 16:33:35,275 - INFO - Starting model training pipeline
+2025-03-26 16:33:35,275 - INFO - Loading data from artifacts\processed\processed_train.parquet
+2025-03-26 16:33:35,275 - INFO - Started loading file at artifacts\processed\processed_train.parquet
+2025-03-26 16:33:35,286 - INFO - Successfully loaded data
+2025-03-26 16:33:35,286 - INFO - Loading data from artifacts\processed\processed_test.parquet
+2025-03-26 16:33:35,286 - INFO - Started loading file at artifacts\processed\processed_test.parquet
+2025-03-26 16:33:35,296 - INFO - Successfully loaded data
+2025-03-26 16:33:35,298 - INFO - Data splitted successfully for model training
+2025-03-26 16:33:35,298 - INFO - Initializing model RandomForestClassifier
+2025-03-26 16:33:35,298 - INFO - Starting hyperparameter tuning
+2025-03-26 16:35:53,543 - INFO - Best parameters are {'bootstrap': False, 'max_depth': 17, 'n_estimators': 34}
+2025-03-26 16:35:53,543 - INFO - Evaluating model
+2025-03-26 16:35:53,576 - INFO - Metrics are {'Accuracy': 0.90144727773949, 'Recall': 0.9522043675319324, 'Precision': 0.9053868756121449, 'F1': 0.9282056431368612}
+2025-03-26 16:35:53,576 - INFO - Saving the model
+2025-03-26 16:35:53,591 - INFO - Model saved to artifacts\model.pkl
+2025-03-26 16:35:53,591 - INFO - Logging training and testing data in MLFlow
+2025-03-26 16:35:53,624 - INFO - Logging model in MLFlow
+2025-03-26 16:35:53,624 - INFO - Logging model metrics in MLFlow
+2025-03-26 16:35:53,676 - INFO - Logging model params in MLFlow
+2025-03-26 16:35:53,812 - INFO - Successfully finished model training pipeline

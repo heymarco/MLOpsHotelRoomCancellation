@@ -13,3 +13,6 @@ CONFIG_PATH = os.path.join("config", "config.yaml")
 PROCESSED_DIR = os.path.join("artifacts", "processed")
 PROCESSED_TRAIN_DATA_PATH = os.path.join(PROCESSED_DIR, "processed_train.parquet")
 PROCESSED_TEST_DATA_PATH = os.path.join(PROCESSED_DIR, "processed_test.parquet")
+
+# MODEL TRAINING
+MODEL_OUTPUT_PATH = os.path.join("artifacts", "model.pkl")
