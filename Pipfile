@@ -19,8 +19,9 @@ fastparquet = "*"
 xgboost = "*"
 lightgbm = "*"
 imbalanced-learn = "*"
-mlops-p1 = {file = ".", editable = true}
 mlflow = "*"
+flask = "*"
+mlops-p1 = {file = ".", editable = true}
 
 [dev-packages]
 

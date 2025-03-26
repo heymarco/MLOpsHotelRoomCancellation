@@ -8,3 +8,4 @@
 /logs
 /mlruns
 mlops_p1.egg-info/
+*.pkl
