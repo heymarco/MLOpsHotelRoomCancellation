@@ -1,0 +1,86 @@
+2025-03-26 12:25:33,807 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 12:25:33,811 - INFO - Loading data from artifacts\raw\train.parquet and artifacts\raw\test.parquet
+2025-03-26 12:25:33,811 - INFO - Started loading file at artifacts\raw\train.parquet
+2025-03-26 12:25:33,884 - INFO - Successfully loaded data
+2025-03-26 12:25:33,884 - INFO - Started loading file at artifacts\raw\test.parquet
+2025-03-26 12:25:33,907 - INFO - Successfully loaded data
+2025-03-26 12:25:33,907 - INFO - Starting data preprocessing
+2025-03-26 12:25:33,907 - INFO - Dropping columns
+2025-03-26 12:25:33,913 - INFO - Dropping columns
+2025-03-26 12:25:33,915 - INFO - Encode labels
+2025-03-26 12:25:33,931 - INFO - Label mappings are:
+2025-03-26 12:25:33,931 - INFO - type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-03-26 12:25:33,931 - INFO - required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 12:25:33,931 - INFO - room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-03-26 12:25:33,931 - INFO - market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-03-26 12:25:33,931 - INFO - repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 12:25:33,931 - INFO - booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-03-26 12:25:33,931 - INFO - Reducing skew in data:
+2025-03-26 12:25:33,938 - ERROR - Error during preprocessing step 'skew_threshold'
+2025-03-26 12:25:33,938 - ERROR - Error during data preprocessing 'KeyError' object has no attribute 'exc_info'
+2025-03-26 12:28:15,885 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 12:28:15,885 - INFO - Loading data from artifacts\raw\train.parquet and artifacts\raw\test.parquet
+2025-03-26 12:28:15,885 - INFO - Started loading file at artifacts\raw\train.parquet
+2025-03-26 12:28:15,939 - INFO - Successfully loaded data
+2025-03-26 12:28:15,939 - INFO - Started loading file at artifacts\raw\test.parquet
+2025-03-26 12:28:15,946 - INFO - Successfully loaded data
+2025-03-26 12:28:15,946 - INFO - Starting data preprocessing
+2025-03-26 12:28:15,946 - INFO - Dropping columns
+2025-03-26 12:28:15,950 - INFO - Dropping columns
+2025-03-26 12:28:15,951 - INFO - Encode labels
+2025-03-26 12:28:15,973 - INFO - Label mappings are:
+2025-03-26 12:28:15,973 - INFO - type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-03-26 12:28:15,973 - INFO - required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 12:28:15,973 - INFO - room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-03-26 12:28:15,973 - INFO - market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-03-26 12:28:15,973 - INFO - repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 12:28:15,973 - INFO - booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-03-26 12:28:15,973 - INFO - Reducing skew in data:
+2025-03-26 12:28:15,977 - INFO - Reducing skew in data:
+2025-03-26 12:28:15,979 - INFO - Saving data in processed folder
+2025-03-26 12:28:15,979 - INFO - Saving data in processed folder
+2025-03-26 12:28:15,979 - INFO - Data preprocessing completed successfully
+2025-03-26 12:29:17,964 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 12:29:17,964 - INFO - Loading data from artifacts\raw\train.parquet and artifacts\raw\test.parquet
+2025-03-26 12:29:17,964 - INFO - Started loading file at artifacts\raw\train.parquet
+2025-03-26 12:29:18,019 - INFO - Successfully loaded data
+2025-03-26 12:29:18,019 - INFO - Started loading file at artifacts\raw\test.parquet
+2025-03-26 12:29:18,026 - INFO - Successfully loaded data
+2025-03-26 12:29:18,026 - INFO - Starting data preprocessing
+2025-03-26 12:29:18,027 - INFO - Dropping columns
+2025-03-26 12:29:18,031 - INFO - Dropping columns
+2025-03-26 12:29:18,032 - INFO - Encode labels
+2025-03-26 12:29:18,053 - INFO - Label mappings are:
+2025-03-26 12:29:18,053 - INFO - type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-03-26 12:29:18,053 - INFO - required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 12:29:18,053 - INFO - room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-03-26 12:29:18,053 - INFO - market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-03-26 12:29:18,053 - INFO - repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 12:29:18,053 - INFO - booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-03-26 12:29:18,054 - INFO - Reducing skew in data:
+2025-03-26 12:29:18,057 - INFO - Reducing skew in data:
+2025-03-26 12:29:18,059 - INFO - Saving data under artifacts\processed\processed_train.csv
+2025-03-26 12:29:18,059 - INFO - Saving data under artifacts\processed\processed_test.csv
+2025-03-26 12:29:18,059 - INFO - Data preprocessing completed successfully
+2025-03-26 12:30:29,000 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-26 12:30:29,000 - INFO - Loading data from artifacts\raw\train.parquet and artifacts\raw\test.parquet
+2025-03-26 12:30:29,001 - INFO - Started loading file at artifacts\raw\train.parquet
+2025-03-26 12:30:29,053 - INFO - Successfully loaded data
+2025-03-26 12:30:29,053 - INFO - Started loading file at artifacts\raw\test.parquet
+2025-03-26 12:30:29,060 - INFO - Successfully loaded data
+2025-03-26 12:30:29,060 - INFO - Starting data preprocessing
+2025-03-26 12:30:29,060 - INFO - Dropping columns
+2025-03-26 12:30:29,064 - INFO - Dropping columns
+2025-03-26 12:30:29,065 - INFO - Encode labels
+2025-03-26 12:30:29,086 - INFO - Label mappings are:
+2025-03-26 12:30:29,086 - INFO - type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-03-26 12:30:29,086 - INFO - required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 12:30:29,086 - INFO - room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-03-26 12:30:29,086 - INFO - market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-03-26 12:30:29,086 - INFO - repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-26 12:30:29,086 - INFO - booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-03-26 12:30:29,086 - INFO - Reducing skew in data:
+2025-03-26 12:30:29,090 - INFO - Reducing skew in data:
+2025-03-26 12:30:29,092 - INFO - Saving data under artifacts\processed\processed_train.parquet
+2025-03-26 12:30:29,115 - INFO - Saving data under artifacts\processed\processed_test.parquet
+2025-03-26 12:30:29,131 - INFO - Data preprocessing completed successfully

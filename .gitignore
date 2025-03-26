@@ -1,0 +1,6 @@
+.env
+.google_application_credentials.json
+*.csv
+*.parquet
+.idea
+*__pycache__*

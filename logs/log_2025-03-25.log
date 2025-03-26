@@ -1,0 +1,25 @@
+2025-03-25 12:34:34,458 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-25 12:34:34,458 - INFO - Data ingestion started with marco93_1 and file is hotel_reservations.csv
+2025-03-25 12:34:34,458 - INFO - Starting data ingestion process
+2025-03-25 12:34:36,090 - INFO - Successfully downloaded CSV file to artifacts\raw\raw.csv
+2025-03-25 12:34:36,090 - INFO - Starting the splitting process
+2025-03-25 12:34:36,356 - INFO - Train data saved to artifacts\raw\train.csv
+2025-03-25 12:34:36,356 - INFO - Test data saved to artifacts\raw\test.csv
+2025-03-25 12:34:36,356 - INFO - Data ingestion completed successfully
+2025-03-25 12:34:36,356 - INFO - Data ingestion completed
+2025-03-25 12:47:08,220 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-25 12:47:08,221 - INFO - Data ingestion started with marco93_1 and file is hotel_reservations.csv
+2025-03-25 12:47:08,221 - INFO - Starting data ingestion process
+2025-03-25 12:47:09,838 - INFO - Successfully downloaded CSV file to artifacts\raw\raw.csv
+2025-03-25 12:47:09,838 - INFO - Starting the splitting process
+2025-03-25 12:47:10,005 - INFO - Train data saved to artifacts\raw\train.parquet
+2025-03-25 12:47:10,005 - INFO - Test data saved to artifacts\raw\test.parquet
+2025-03-25 12:47:10,005 - INFO - Data ingestion completed successfully
+2025-03-25 12:47:10,005 - INFO - Data ingestion completed
+2025-03-25 12:59:04,332 - INFO - Successfully read the yaml file at config\config.yaml
+2025-03-25 12:59:04,333 - INFO - Data ingestion started with marco93_1 and file is hotel_reservations.csv
+2025-03-25 12:59:04,333 - INFO - Starting data ingestion process
+2025-03-25 12:59:05,975 - INFO - Successfully downloaded CSV file to artifacts\raw\raw.csv
+2025-03-25 12:59:05,975 - INFO - Starting the splitting process
+2025-03-25 12:59:06,084 - ERROR - Error while splitting data
+2025-03-25 12:59:06,084 - INFO - Data ingestion completed
