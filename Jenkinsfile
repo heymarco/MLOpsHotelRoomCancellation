@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-//         Define environment variables here
-    }
-
     stages {
         stage('Cloning Github repo to Jenkins') {
             steps {
