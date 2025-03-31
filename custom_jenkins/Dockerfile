@@ -13,6 +13,10 @@ RUN apt-get update -y && \
     apt-get install -y docker-ce docker-ce-cli containerd.io && \
     apt-get clean
 
+# Install python 3.11
+RUN apt-get install -y python3.11 python3.11-venv python3-pip
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
 # Add Jenkins user to the Docker group (create if it doesn't exist)
 RUN groupadd -f docker && \
     usermod -aG docker jenkins
