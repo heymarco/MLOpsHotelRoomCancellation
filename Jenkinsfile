@@ -12,8 +12,7 @@ pipeline {
             steps {
                 echo 'Setting up virtual environment...'
                 sh '''
-                pip install --upgrade pip
-                pip install --user pipenv
+                python3 -m pip install --user pipenv
                 pipenv install -e .
                 pipenv shell
                 '''
