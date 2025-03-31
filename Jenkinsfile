@@ -12,8 +12,7 @@ pipeline {
             steps {
                 echo 'Setting up virtual environment...'
                 sh '''
-                apt update && apt install -y pipx python3-venv
-                pipx install pipenv
+                pip3 install --user pipenv
                 pipenv install -e .
                 pipenv shell
                 '''
