@@ -19,7 +19,13 @@ RUN ln -s /usr/bin/python3 /usr/bin/python
 
 # Add Jenkins user to the Docker group (create if it doesn't exist)
 RUN groupadd -f docker && \
-    usermod -aG docker jenkins
+    usermod -aG docker jenkins && \
+    usermod -aG root jenkins
+
+# Add google cloud CLI to container
+RUN curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - &&  \
+    echo 'deb https://packages.cloud.google.com/apt cloud-sdk main' | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list && \
+    apt-get update && apt-get install -y google-cloud-sdk
 
 # Create the Docker directory and volume for DinD
 RUN mkdir -p /var/lib/docker
