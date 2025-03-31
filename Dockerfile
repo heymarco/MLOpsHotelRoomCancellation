@@ -12,7 +12,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN pipenv install --no-cache-dir -e .
+RUN pip install --no-cache-dir -e .
 
 RUN python pipeline/training_pipeline.py
 
