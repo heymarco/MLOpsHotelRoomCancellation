@@ -38,8 +38,8 @@ pipeline {
                             gcloud auth configure-docker --quiet
 
                             # Build and Push Docker Image
-                            gcloud builds submit --tag ${GCP_ARTIFACT_REPO}/application:latest
-
+                            docker build -t ${GCP_ARTIFACT_REPO}/application:latest .
+                            docker push ${GCP_ARTIFACT_REPO}/application:latest
                         '''
                     }
                 }
