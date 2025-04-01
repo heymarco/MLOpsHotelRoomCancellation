@@ -37,7 +37,8 @@ pipeline {
                             gcloud config set project ${GCP_PROJECT}
                             gcloud auth configure-docker --quiet
 
-                            gcloud builds submit --tag ${GCP_ARTIFACT_REPO}/application:latest
+                            gcloud builds submit --tag ${GCP_ARTIFACT_REPO}/application:latest \
+                                --build-arg GOOGLE_APPLICATION_CREDENTIALS=${GOOGLE_APPLICATION_CREDENTIALS}
                         '''
                     }
                 }
