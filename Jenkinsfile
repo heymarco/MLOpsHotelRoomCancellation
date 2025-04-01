@@ -4,6 +4,7 @@ pipeline {
     environment {
         VENV_DIR='venv'
         GCP_PROJECT='bold-lantern-454416-b5'
+        GCP_ARTIFACT_REPO='europe-west3-docker.pkg.dev/bold-lantern-454416-b5/hotel-reservations'
         GCLOUD_PATH='/var/jenkins_home/google-cloud-sdk/bin'
     }
 
@@ -36,8 +37,7 @@ pipeline {
                             gcloud config set project ${GCP_PROJECT}
                             gcloud auth configure-docker --quiet
 
-                            docker build -t gcr.io/${GCP_PROJECT}/mlops-p1:latest .
-                            docker push gcr.io/${GCP_PROJECT}/mlops-p1:latest
+                            gcloud builds submit --tag ${GCP_ARTIFACT_REPO}/application:latest
                         '''
                     }
                 }
