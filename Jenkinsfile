@@ -38,7 +38,8 @@ pipeline {
                             gcloud auth configure-docker --quiet
 
                             # Build and Push Docker Image
-                            docker build -t ${GCP_ARTIFACT_REPO}/application:latest .
+                            docker build --build-arg GOOGLE_APPLICATION_CREDENTIALS=${GOOGLE_APPLICATION_CREDENTIALS} \
+                                -t ${GCP_ARTIFACT_REPO}/application:latest .
                             docker push ${GCP_ARTIFACT_REPO}/application:latest
                         '''
                     }
