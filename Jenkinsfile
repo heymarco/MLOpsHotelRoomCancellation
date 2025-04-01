@@ -38,7 +38,6 @@ pipeline {
 
                             docker build -t gcr.io/${GCP_PROJECT}/hotel-reservations:latest .
                             docker push gcr.io/${GCP_PROJECT}/hotel-reservations:latest
-
                         '''
                     }
                 }

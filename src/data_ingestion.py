@@ -1,5 +1,3 @@
-import os
-from dotenv import load_dotenv
 import pandas as pd
 from google.cloud import storage
 from sklearn.model_selection import train_test_split
@@ -9,7 +7,6 @@ from config.paths_config import *
 from utils.common_functions import read_yaml
 
 
-load_dotenv()
 logger = get_logger(__name__)
 
 class DataIngestion:
