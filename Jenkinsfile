@@ -45,25 +45,24 @@ pipeline {
                 }
             }
         }
-//         stage('Deploying on Google Cloud Run') {
-//             steps {
-//                 withCredentials([file(credentialsId: 'gcp-key', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]){
-//                     script {
-//                         echo 'Deploying on Google Cloud Run'
-//                         sh '''
-//                             export PATH=$PATH:${GCLOUD_PATH}
-//                             gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS}
-//                             gcloud config set project ${GCP_PROJECT}
-//
-//                             gcloud run deploy mlops-p1 \
-//                                 --image=gcr.io/${GCP_PROJECT}/ml-project:latest \
-//                                 --platform=managed \
-//                                 --region=us-central1 \
-//                                 --allow-unauthenticated
-//                         '''
-//                     }
-//                 }
-//             }
-//         }
+        stage('Deploying on Google Cloud Run') {
+            steps {
+                withCredentials([file(credentialsId: 'gcp-key', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]){
+                    script {
+                        echo 'Deploying on Google Cloud Run'
+                        sh '''
+                            export PATH=$PATH:${GCLOUD_PATH}
+                            gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS}
+                            gcloud config set project ${GCP_PROJECT}
+
+                            gcloud run deploy mlops-p1 \
+                                --image=${GCP_ARTIFACT_REPO}/application:latest \
+                                --platform=managed \
+                                --allow-unauthenticated
+                        '''
+                    }
+                }
+            }
+        }
     }
 }
