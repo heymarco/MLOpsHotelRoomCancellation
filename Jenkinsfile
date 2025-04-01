@@ -58,6 +58,7 @@ pipeline {
                             gcloud run deploy mlops-p1 \
                                 --image=${GCP_ARTIFACT_REPO}/application:latest \
                                 --platform=managed \
+                                --region=europe-west3 \
                                 --allow-unauthenticated
                         '''
                     }
